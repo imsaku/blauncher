@@ -1,3 +1,3 @@
-# blauncher
-exploits licensing service and lets you play minecraft bedrock on win10/11 machines for free //
-i legitimately lost the source code for this project, so feel free to attempt reverse engineering the blauncher executable (its written in bat so it shouldn't be way too difficult plus it outputs most of what it really does). I'm working on rewriting it as of right now, but with a lot of improvements, so for now, look out for future releases
+# BLauncher
+Exploits licensing service and lets you play minecraft bedrock on win10/11 machines for free!
+Method used is force disabling ClipSVC service and killing RuntimeBroker.exe while loading the game in order to get into the game without the trial. I know that this method isn't perfect at all, but it works at the very least ¯\_(ツ)_/¯
